@@ -1,0 +1,217 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+
+}
+
+body {
+    background-color: #34495E;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.name h2 {
+    justify-content: center;
+    color: #fff;
+}
+
+.container {
+    position: relative;
+    width: 100%;
+    max-width: 1000px;
+    min-height: 1000px; 
+    background: #ffff;
+    margin: 50px;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    box-shadow: 0 35px 55px rgba(0,0,0,0,0.1);
+}
+
+.container .left_Side {
+    grid-column: 1;
+    position: relative;
+    background: #003147;
+    padding: 40px;
+}
+
+.profielText {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 20px;
+    border-bottom: 1px solid rgba(255,255,255,0.2);
+}
+
+.profielText .imgBx {
+    position: relative;
+    width: 200;
+    height: 200;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.profielText .imgBx img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 0;
+    object-fit: cover;
+}
+
+.imgBx img {
+    width: 225px;
+    height: 200x;
+}
+
+.profielText h2 {
+    color: #fff;
+    font-size: 1.5em;
+    margin-top: 20px;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 600;
+    line-height: 1.4em;
+}
+
+.profiletext h2 span {
+    font-size: 0.8em;
+    font-weight: 300;
+}
+
+.title0 {
+    color: #fff;
+    font-style: italic;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    margin-bottom: 10px;
+
+}
+
+.contactInfo {
+    padding-top: 40px;
+}
+
+.contactInfo ul {
+    position: relative;
+}
+
+.contactInfo {
+    margin-top: 50px;
+}
+
+.contactInfo li {
+    margin-bottom: 25px;
+}
+
+.contactInfo h5 {
+    color: #03a9f4;
+    font-weight: 500;
+}
+
+.contactInfo h4 {
+    color: #fff;
+    font-weight: 500;
+}
+
+.title1 {
+    color: #fff;
+    font-style: italic;
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: 1px;
+    margin-bottom: 20px;
+}
+
+.educationInfo ul {
+    position: relative;
+}
+
+.educationInfo {
+    margin-top: 50px;
+}
+
+.educationInfo li {
+    margin-bottom: 25px;
+}
+
+.educationInfo h5 {
+    color: #03a9f4;
+    font-weight: 500;
+}
+
+.educationInfo h4 {
+    color: #fff;
+    font-weight: 500;
+}
+
+.title2 {
+    color: #003147;
+    font-style: italic;
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: 1px;
+    margin-bottom: 20px;
+}
+
+.skills {
+    margin-top: 50px;
+}
+
+.skills li {
+    margin-bottom: 25px;
+}
+
+.skills h5 {
+    color: #003147;
+    font-weight: 500;
+}
+
+.skills h4 {
+    color: #003147;
+    font-weight: 500;
+}
+
+.container .right_Side{
+    position: relative;
+    grid-column: 3;
+    background: #ffff;
+    padding: 40px;
+}
+
+.about {
+    margin-bottom: 70px;
+}
+
+.title3 {
+    color: #003147;
+    font-style: italic;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    margin-bottom: 10px;
+}
+
+p {
+    color: #333;
+    letter-spacing: 1px;
+    line-height: 1.5;
+}
+
+.justify-text {
+    text-align: justify;
+}
+
+#colorChangeButton {
+    font-size: 18px;
+    color: #fff;
+    background-color: #003147;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
