@@ -1,0 +1,38 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #87CEEB;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+  
+input {
+    grid-column: span 4; 
+    text-align: left;
+}
+  
+#calculator {
+    background-color: #000080;
+    border-radius: 5px;
+    padding: 30px;
+    width: 300px; 
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(6, 1fr);
+    grid-gap: 5px;
+}
+
+#equal {
+    grid-row: span 2;
+}
+  
+#num0 {
+    grid-column: span 2;
+    width: 120px;
+}
+
+#equals {
+    grid-row: span 2;
+    height: 110px;
+}
